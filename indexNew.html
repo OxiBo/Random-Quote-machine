@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Random quote machine</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+
+	    <!-- get font-awesome -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+        <!-- http://jquery.com/ -->
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- google font -->
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,500,600i" rel="stylesheet">
+
+       <link rel="stylesheet" type="text/css" href="stylesRandomQuoteNew.css">
+       <script src="randomQuoteJS.js" async defer></script>
+	</head>
+
+	<body>
+
+		<div class="container">
+          <div id="header">
+			<h1>Random Quote Engine</h1>
+		  </div>
+
+
+				<div class="content" id="quotePlace">
+					<p id='quoteFail'></p>
+					<blockquote id="quoteText">Get Your New Quote</blockquote>
+					<p id="author"></p>
+				</div>
+
+				 <div>
+				 	<button class="myButton fa fa-quote-right" id="getQuote" placeholder="New quote">Get a new quote</button>
+
+				    <button class="myButton fa fa-twitter btnHidden" id="tweet" placeholder="Tweet">Tweet</button>
+
+				    <button class="myButton fa fa-facebook btnHidden" id="facebook" placeholder="facebook">Facebook</button>
+			     </div>
+</div>
+			<div>
+				<footer><p id=copyright>Written and coded by OxiBo, 2018</p>
+				</footer>
+			</div>
+
+	</body>
+
+</html>

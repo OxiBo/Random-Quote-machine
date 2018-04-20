@@ -1,0 +1,80 @@
+html body,
+.container {
+  min-height: 420px;
+  margin: auto;
+  padding: 10px;
+  padding-top: 20px;
+  text-align: center;
+  background: url(light.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'IBM Plex Serif', "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+
+.content {
+  width: 90%;
+  height: auto;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  box-sizing: border-box;
+  margin: 30px auto;
+  padding: 10px; }
+  @media only screen and (min-width: 480px) {
+    .content {
+      width: 80%; } }
+  @media only screen and (min-width: 700px) {
+    .content {
+      width: 60%; } }
+  @media only screen and (min-width: 1000px) {
+    .content {
+      width: 50%; } }
+
+blockquote {
+  padding: 5px 5px;
+  margin: 0;
+  border-left: 5px solid #eee; }
+
+.content p#quoteFail {
+  text-align: left;
+  font-style: italic; }
+
+.content p#author {
+  text-align: right;
+  font-style: italic; }
+
+.myButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  outline-color: #fbefcc; }
+
+.myButton:active {
+  background-color: #fff;
+  transform: translateY(4px);
+  outline-color: #fbefcc; }
+
+button {
+  background-color: white;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 12px !important;
+  font-weight: bold !important;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 7px;
+  width: 150px;
+  height: 30px;
+  border-radius: 7px;
+  outline-color: #fbefcc; }
+
+button.btnHidden {
+  display: none; }
+
+footer {
+  font-size: 15px;
+  font-style: italic;
+  padding: 1rem; }
+
+/*# sourceMappingURL=stylesRandomQuoteNew.css.map */
